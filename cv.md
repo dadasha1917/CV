@@ -1,6 +1,6 @@
-# Daria Harliak
-## Student
-# 
+# DARIA HARLIAK
+## *Student*
+###### ![alt text](https://github.com/dadasha1917/CV/blob/markdowm-cv/photo5393362262800054174.jpg)
 # Contact information:
 * Location: Vitebsk, Belarus
 * Phone: +375291016877
@@ -13,12 +13,12 @@ I am 18 years old. I graduated school with honors in 2021. Now I am a first-year
 I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
 I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
 # Skills
-* HTML
-* C++
-* Photoshop
-* Inkscape
-* Excel
-* GitHub
+* *HTML
+* *C++
+* *Photoshop
+* *Inkscape
+* *Excel
+* *GitHub*
 # Code examples
 ```C++
 struct tnode* addnode(double x, tnode* tree) {
