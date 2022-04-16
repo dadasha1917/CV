@@ -53,4 +53,13 @@ struct tnode* addnode(double x, tnode* tree) {
     cout << a*b  << endl;
 
     return 0;}
-
+#  Work experience:
+Nothing yet...
+# Education and courses:
+* High school 4 of Gorki (successfully graduated with a gold medal)
+* Now  I study at Vitebsk State University named after P.M. Masherov
+* C++ video courses on YouTube channel Simple Code
+* Git video courses on YouTube channel Glo Academy
+# Languages:
+* Russian
+* English level-A2
