@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth; 
+}
+body{
+  color: #326ee5;
+  font-size: 23;
+    font-family: 'Koulen', cursive;
+font-family: 'Raleway', sans-serif;
+min-height: 100vh;
+margin: 0; padding: 0;
+display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-profile-logo {
+  border-radius: 80%;
+  box-shadow: 0 1px 4px rgba(18, 101, 246, 0.788);
+  height: 500px;
+  object-fit: cover;
+  transition: .3s;
+  width: 500px;
+  
+}
+.main {
+  margin-bottom: auto;
+}
+main {
+  display: block;
+}
+.main-title {
+  color: #36929b;
+  -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+  font-size: 100px;
+  letter-spacing: 10px;
+  line-height: 120px;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  word-spacing: 3px;
+}
+.section-profile {
+  border-bottom: 15px solid #20a8ba;
+  display: flex;
+  flex-direction: row-reverse
+}
+.section-profile-title {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  word-spacing: 3px;
+}
+.section-subtitle {
+  color: #0b6169;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.header {
+  background-color: #79d7e8;
+}
+
+header {
+  display: block;
+}
+
+.nav-list {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.nav-link {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 50px;
+  padding: 0 12px;
+  position: relative;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 20px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 50px;
+}
+.section-title {
+  color: #225384;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.footer{
+  background-color:#20a8ba ;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.section-item a {
+  color: #230b4f;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+ul li:hover a{
+  color: #225384;
+}
+a {
+  text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+  display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный 
+  line-height: 1; /*Задаём высоту строки (можно в пикселях)*/
+  color:#2F73B6;/*Задаём цвет ссылки*/
+  }
+  a:after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 3px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #225384; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+  }
+  a:hover:after,
+  a:focus:after {
+  width: 100%;
+  }
+  a:hover{
+  color:#225384;
+  } 
