@@ -2,4 +2,4 @@
 
 https://dadasha1917.github.io/CV/cv
 
-https://dadasha1917.github.io/index.html
+https://dadasha1917.github.io/CV/index.html
