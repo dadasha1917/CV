@@ -1,1 +1,173 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+             <ul class="nav-list">
+                 <li class="nav-item">
+                     <a href="#contacts" class="nav-link">Contacts</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#Summary" class="nav-link">Summary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+              <li class="nav-item">
+                <a href="#languages" class="nav-link">Languages</a>
+            </li>
+        </ul>
+             </nav> 
+             <div class="toggle">
+                 <div class="line1"></div>
+                 <div class="line2"></div>
+                 <div class="line3"></div>
+             </div>
+             </div>
+    </header>
+    
+     <main class="main">
+         <div class="container main-container">
+             <section class="section section-profile" id="profile">
+                <img src="photo5460850561390853136.jpg" alt="Daria" class="section-profile-logo" >             
+            <div class="sectoin-profile-title">
+                    <h1 class="sectoin-title main-title">
+                        Harliak Daria
+                    </h1>
+                    <h3 class="section-subtitle">Student</h3>
+                </div>
+                </section>
+                <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                 <ul class="section-list">
+                     <li class="section-item contacts-item">
+                     Location: Vitebsk, Belarus
+                    </li>
+                     <li class="section-item contacts-item">
+                     Phone: +375291016877
+                    </li>
+                     <li class="section-item contacts-item">
+                        E-mail: 
+                        <a href="https://mail.google.com/mail/u/0/#inbox">dasha09340@gmail.com</a>
+                     </li>
+                     <li class="section-item contacts-item">
+                        Telegram:
+                        <a href="https://web.telegram.org/k/"> @dadasha1917</a>
+                     </li>
+                     <li class="section-item contacts-item">
+                        GitHub:
+                        <a href="https://github.com/dadasha1917">dadasha1917@github.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Instagram:
+                        <a href="https://www.instagram.com/_da.da.sha_/">_da.da.sha_</a>
+                    </li>
+                </ul>
+                </section>
+                <section class="section" id="Summary">
+                    <h2 class=" section-title">Summary</h2>
+<p>I am 18 years old. I graduated school with honors in 2021. Now I am a first-year student of Vitebsk State University named after P. M. Masherov. I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.</p>
+</section>   
+<section class="section" id="Skills">
+    <h2 class="section-title">Skills</h2> 
+    <ul class="section-list">
+        <li class="section-item">
+            HTML
+            </li>
+            <li class="section-item">
+              C++
+                </li>
+                <li class="section-item">
+              Photoshop
+                </li>
+                <li class="section-item">
+              Inkscape
+                </li>
+                <li class="section-item">
+              Excel
+                </li>
+                <li class="section-item">
+              GitHub
+                </li>
+               </ul>
+               </section>
+    <section class="section" id="Code">
+                 <h2 class="section-title">Code</h2>  
+                 <pre>
+                    <code>struct tnode* addnode(double x, tnode* tree) {
+                        if (tree == NULL) { // Если дерева нет, то формируем корень
+                            tree = new tnode; // память под узел
+                            tree->field = x;   // поле данных
+                            tree->left = NULL;
+                            tree->right = NULL; // ветви инициализируем пустотой
+                        }
+                        else  if (x < tree->field)   // условие добавление левого потомка
+                            tree->left = addnode(x, tree->left);
+                        else    // условие добавление правого потомка
+                            tree->right = addnode(x, tree->right);
+                        return(tree); </code>
+                </pre>
+                </section>
+<section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+    <ul class="section-list">
+        <li class="section-item">
+            High school 4 of Gorki (successfully graduated with a gold medal)
+            </li>
+            <li class="section-item">
+                Now I study at Vitebsk State University named after P.M. Masherov
+                </li>
+                <li class="section-item">
+                    C++ video courses on YouTube channel Simple Code
+                </li>
+                <li class="section-item">
+                    Git video courses on YouTube channel Glo Academy
+                </li>
+                 </ul>
+      </section>
+      <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+        <ul class="section-list projects">
+            <li class="section-item">
+                <a href="https://dadasha1917.github.io/CV/cv">My resume in github</a>
+</ul>
+</section>
+<section class="section" id="languages">
+    <h2 class="section-title">Languages</h2>
+  <p>Russian</p>
+  <p>Belorussian</p>
+  <p>English(level-A2)</p>
+</section>
+</div></main>
+    <h2><a href="#"> UP </a></h2>
+    <footer class="footer">
+    <div class="container footer-container">
+        <div>"2022"
+            <a href="https://github.com/dadasha1917" class="github nav-link">"HarliakDaria"</a>
+        </div>
+        </div>
+        </footer>
+</body>
+</html>
